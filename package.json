@@ -7,11 +7,10 @@
   "license": "MIT",
   "source": "src/index.js",
   "main": "dist/next-styled-nprogress.js",
-  "module": "dist/next-styled-nprogress.mjs",
   "scripts": {
     "lint": "standard --fix ./src/**/*.js",
-    "build": "microbundle -o dist/ --sourcemap false --compress false",
-    "dev": "microbundle watch -o dist/ --sourcemap false --compress false"
+    "build": "microbundle -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs",
+    "dev": "microbundle watch -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs"
   },
   "peerDependencies": {
     "next": "*",
