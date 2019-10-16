@@ -17,7 +17,7 @@
 
 ## Install
 
-This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). It requires [Next](https://nextjs.org), [React](https://reactjs.org) and [styled-components](https://www.styled-components.com) as peer dependencies.
+This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). It requires [Next](https://nextjs.org), [React](https://reactjs.org), [nprogress](https://www.npmjs.com/package/nprogress) and [styled-components](https://www.styled-components.com) as peer dependencies,
 
 ```sh
 $ npm install next-styled-nprogress
@@ -54,11 +54,11 @@ class Example extends App {
 }
 ```
 
-For ease of use, `nprogress` is also exported from the module and can now be used across site:
+`NProgress` can also now be used across site, as the styles are already included:
 
 ```js
 import React from 'react'
-import { NProgress } 'next-styled-nprogress'
+import NProgress from  'nprogress'
 
 
 const Example = () => {

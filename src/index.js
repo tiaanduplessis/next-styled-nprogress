@@ -129,5 +129,4 @@ class PageNProgress extends Component {
   }
 }
 
-export { default as NProgress } from 'nprogress'
 export default PageNProgress
