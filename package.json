@@ -1,6 +1,6 @@
 {
   "name": "next-styled-nprogress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add NProgress loader between pages in your Next.js App",
   "repository": "https://github.com/tiaanduplessis/next-styled-nprogress.git",
   "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
