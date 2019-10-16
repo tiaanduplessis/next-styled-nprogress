@@ -13,7 +13,7 @@
     "dev": "microbundle watch -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs"
   },
   "peerDependencies": {
-    "next": "8",
+    "next": "8 || 9",
     "react": "16",
     "styled-components": "4"
   },
