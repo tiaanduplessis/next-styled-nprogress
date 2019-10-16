@@ -54,6 +54,27 @@ class Example extends App {
 }
 ```
 
+For ease of use, `nprogress` is also exported from the module and can now be used across site:
+
+```js
+import React from 'react'
+import { NProgress } 'next-styled-nprogress'
+
+
+const Example = () => {
+
+    const handleClick = () => {
+        NProgress.start()
+
+        setTimeout(() => {
+            NProgress.done()
+        }, 1000)
+    }
+
+    return <button type="button" onClick={handleClick}>Click me</button>
+}
+```
+
 ## Contribute
 
 1. Fork it and create your feature branch: `git checkout -b my-new-feature`
@@ -64,4 +85,3 @@ class Example extends App {
 ## License
 
 MIT
-    

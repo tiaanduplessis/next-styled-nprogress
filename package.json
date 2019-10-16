@@ -13,14 +13,14 @@
     "dev": "microbundle watch -o dist/ --sourcemap false --compress false --jsx React.createElement --format cjs"
   },
   "peerDependencies": {
-    "next": "*",
-    "react": "*",
-    "styled-components": "*"
+    "next": "8",
+    "react": "16",
+    "styled-components": "4"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
     "microbundle": "0.11.0",
-    "standard": "12.0.1"
+    "standard": "14.3.1"
   },
   "standard": {
     "parser": "babel-eslint"
